@@ -1,10 +1,10 @@
 <?php
     echo 'Bai 1'.'<br>';
-    $myName = "Nguyen Van The";
-    $greeting = "Ten toi la $myName";
+    const MY_NAME = "Nguyen Van The";
+    $greeting = "Ten toi la ".MY_NAME;
     echo $greeting.'<br>';
     echo strlen($greeting).'<br>';
-    echo str_replace($myName, "Vu Duy", $greeting).'<br>';
+    echo str_replace(MY_NAME, "Vu Duy", $greeting).'<br>';
 
     echo '<br>'.'Bai 2'.'<br>';
     // 2.1
